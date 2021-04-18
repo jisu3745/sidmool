@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container {}
+
+.page01 {position: relative; margin: 0 auto; height: 1080px }
+.page01 img:nth-child(1) {position: absolute; top: 0;right: 0 }
+.page01 img:nth-child(2) {position: absolute; top: 62px; left: 180px;}
+
+.page01 .text {position: absolute; top: 650px;left: 180px ;}
+.page01 .text .content{}
+.page01 .text .content p {font-size:16px; font-family: 'NanumSquareEB'; color:#FAB700; padding-bottom: 30px;letter-spacing: 3px}
+.page01 .text .content .contlist{width:400px;}
+
+.page01 .text .content .contlist > li .inner > dt {
+	font-size:18px; font-family: 'NanumSquareB'; color:#000;
+	float: left ; margin-right: 30px
+}
+.page01 .text .content .contlist > li .inner > dd {
+	font-size:16px; font-family: 'NanumSquareL'; color:#000;
+	margin-bottom: 20px;letter-spacing:.5px
+}
+.page01 .text .content .contlist > li .inner .dd{margin-left: 90px}
+
+.page01 .text .content .contlist > li .inner > dd .contxt {line-height:1.3}
+
+
+.page02 {position: relative; margin: 0 auto;height: 1080px }
+
+.page02 .left{}
+.page02 .left .txt {font-family: 'NanumSquareB';font-size: 22px;position: absolute;top: 300px;width: 850px; height: 672px;}
+.page02 .left .txt p:nth-child(1) {position: absolute;left: 180px}
+.page02 .left .txt p:nth-child(2) {position: absolute;top: 372px;left: 180px}
+.page02 .left .txt p:nth-child(3) {position: absolute;top: 486px;left: 180px}
+.page02 .left .txt p:nth-child(4) {position: absolute;top: 565px;left: 180px}
+
+.page02 .left .txt p:nth-child(5){font-family: 'NanumSquareL';font-size: 20px; position: absolute;top: 490px;left: 408px}
+.page02 .left .txt p:nth-child(6){font-family: 'NanumSquareL';font-size: 20px; position: absolute;top: 568px;left: 408px}
+
+.page02 .left img{ position: absolute;top: 666px;left: 408px
+}
+
+.page02 .logo {position: absolute; top: 400px; left: 409px}
+
+.page02 .right{}
+.page02 .right .txt {
+	width:200px; height: 300px;position: absolute; 
+	top: 665px; left: 975px
+}
+.page02 .right .txt p:nth-child(1) {font-family: 'NanumSquareB';font-size: 22px;top: 5px;position: absolute}
+.page02 .right .txt p:nth-child(2) {font-family: 'NanumSquareB';font-size: 22px;top: 197px; position: absolute}
+
+.page02 .right .img{
+	position: absolute; top: 313px; left: 1250px; width: 640px; height: 620px
+}
+.page02 .right .img img:nth-child(1) {position: absolute;top: 50px;}
+.page02 .right .img img:nth-child(2) {position: absolute;top: 350px; left: 0}
+.page02 .right .img img:nth-child(3) {position: absolute;top:545px; left: 0}
+
+
+.page03 {position: relative;height: 1080px;}
+
+.page03 img:nth-child(1) {position: absolute; top: 68px; left: 180px;}
+.page03 img:nth-child(2) {position: absolute;top: 343px; left: 960px}
+.page03 img:nth-child(3) {position: absolute;top: 752px; left: 960px}
+.page03 img:nth-child(4) {position: absolute;top: 752px; left: 1358px}
+
+
+
+.page04 {position: relative;height: 1080px;}
+.page04 img {position: absolute; top: 137px; left: 0; }
+
+.page04 .txt {width: 150px;height: 150px}
+.page04 .txt p:nth-child(1) {display: block;
+	font-family: 'NanumSquareB';font-size: 22px; position: absolute; top: 902px; left: 1458px}
+.page04 .txt p:nth-child(2) {
+	font-family: 'NanumSquareR';font-size: 18px; text-align: right; position: absolute; top: 957px; left: 1358px}
+
+
+.page05 {position: relative;height: 1080px }
+.page05 img:nth-child(1) {position: absolute;top: 176px;left: 180px;}
+.page05 img:nth-child(2) {position: absolute;top: 176px;left: 678px;}
+
